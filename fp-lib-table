@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Expansion_Card")(type "KiCad")(uri "${KIPRJMOD}/Expansion_Card.pretty")(options "")(descr ""))
+  (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2350_60QFN_minimal.pretty")(options "")(descr ""))
+  (lib (name "ProjectLibrary")(type "KiCad")(uri "${KIPRJMOD}/ProjectLibrary.pretty")(options "")(descr ""))
+)
