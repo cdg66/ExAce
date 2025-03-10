@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "S3A2505-100.000-L-X1-R:OSC_S3A2505-100.000-L-X1-R"
+		(property "Footprint" "ProjectLibrary:OSC_S3A2505-100.000-L-X1-R"
 			(at 0 1.27 0)
 			(effects
 				(font
