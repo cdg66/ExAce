@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.25,
-          "height": 0.6,
-          "width": 0.6
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1016,
         "silk_text_italic": false,
@@ -128,7 +128,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -136,7 +136,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1524,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -523,11 +523,13 @@
       },
       {
         "name": "GND",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgb(255, 255, 0)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "diff_pair_gap": 0.3,
+        "diff_pair_width": 0.09,
         "name": "LVDS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -683,6 +685,14 @@
       {
         "netclass": "1V1",
         "pattern": "+1V1"
+      },
+      {
+        "netclass": "LVDS",
+        "pattern": "/HSTX*"
+      },
+      {
+        "netclass": "LVDS",
+        "pattern": "/SER_CLK*"
       }
     ]
   },
