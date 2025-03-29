@@ -1,0 +1,282 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.0"
+    },
+    "CreationDate": "2025-03-28T20:31:48-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Expansion_Card_Retrofit",
+      "GUID": "45787061-6e73-4696-9f6e-5f436172645f",
+      "Revision": "X1"
+    },
+    "Size": {
+      "X": 24.05,
+      "Y": 27.3
+    },
+    "LayerNumber": 8,
+    "BoardThickness": 0.7964,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1524,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1524,
+      "TrackToRegion": 0.1016,
+      "RegionToRegion": 0.1016
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Expansion_Card_Retrofit-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-In1_Cu(GND).g1",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-In2_Cu.g2",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-In3_Cu(GND).g3",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-In4_Cu(1V).g4",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-In5_Cu(POWER).g5",
+      "FileFunction": "Copper,L13,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-In6_Cu(GND).g6",
+      "FileFunction": "Copper,L15,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-B_Cu.gbl",
+      "FileFunction": "Copper,L8,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Expansion_Card_Retrofit-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0764,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "F.Cu/In1.Cu(GND)",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu(GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In1.Cu(GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.075,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu(GND)/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu(GND) to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.1088,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/In3.Cu(GND)",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu(GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In3.Cu(GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.075,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In3.Cu(GND)/In4.Cu(1V)",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu(GND) to In4.Cu(1V))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In4.Cu(1V)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.1088,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In4.Cu(1V)/In5.Cu(POWER)",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu(1V) to In5.Cu(POWER))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In5.Cu(POWER)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.075,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In5.Cu(POWER)/In6.Cu(GND)",
+      "Notes": "Type: dielectric layer 6 (from In5.Cu(POWER) to In6.Cu(GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In6.Cu(GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0764,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In6.Cu(GND)/B.Cu",
+      "Notes": "Type: dielectric layer 7 (from In6.Cu(GND) to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
