@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.0"
     },
-    "CreationDate": "2025-03-28T20:31:48-04:00"
+    "CreationDate": "2025-04-07T10:45:10-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 27.3
     },
     "LayerNumber": 8,
-    "BoardThickness": 0.7964,
+    "BoardThickness": 0.8844,
     "Finish": "ENIG",
     "ImpedanceControlled": true
   },
@@ -64,12 +64,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Expansion_Card_Retrofit-In4_Cu(1V).g4",
+      "Path": "Expansion_Card_Retrofit-In4_Cu(1V1).g4",
       "FileFunction": "Copper,L11,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Expansion_Card_Retrofit-In5_Cu(POWER).g5",
+      "Path": "Expansion_Card_Retrofit-In5_Cu(2V5).g5",
       "FileFunction": "Copper,L13,Inr",
       "FilePolarity": "Positive"
     },
@@ -193,12 +193,22 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.1088,
+      "Thickness": 0.0764,
       "Material": "FR4",
       "DielectricConstant": "4.5",
       "LossTangent": "0.02",
-      "Name": "In2.Cu/In3.Cu(GND)",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu(GND))"
+      "Name": "In2.Cu/In3.Cu(GND) (1/2)",
+      "Notes": "Type: dielectric layer 3 - 1/2 (from In2.Cu to In3.Cu(GND))"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0764,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/In3.Cu(GND) (2/2)",
+      "Notes": "Type: dielectric layer 3 - 2/2 (from In2.Cu to In3.Cu(GND))"
     },
     {
       "Type": "Copper",
@@ -212,37 +222,48 @@
       "Material": "FR4",
       "DielectricConstant": "4.5",
       "LossTangent": "0.02",
-      "Name": "In3.Cu(GND)/In4.Cu(1V)",
-      "Notes": "Type: dielectric layer 4 (from In3.Cu(GND) to In4.Cu(1V))"
+      "Name": "In3.Cu(GND)/In4.Cu(1V1)",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu(GND) to In4.Cu(1V1))"
     },
     {
       "Type": "Copper",
       "Thickness": 0.0152,
-      "Name": "In4.Cu(1V)"
+      "Name": "In4.Cu(1V1)"
     },
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.1088,
+      "Thickness": 0.0764,
       "Material": "FR4",
       "DielectricConstant": "4.5",
       "LossTangent": "0.02",
-      "Name": "In4.Cu(1V)/In5.Cu(POWER)",
-      "Notes": "Type: dielectric layer 5 (from In4.Cu(1V) to In5.Cu(POWER))"
+      "Name": "In4.Cu(1V1)/In5.Cu(2V5) (1/2)",
+      "Notes": "Type: dielectric layer 5 - 1/2 (from In4.Cu(1V1) to In5.Cu(2V5))"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0764,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In4.Cu(1V1)/In5.Cu(2V5) (2/2)",
+      "Notes": "Type: dielectric layer 5 - 2/2 (from In4.Cu(1V1) to In5.Cu(2V5))"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "In5.Cu(POWER)"
+      "Name": "In5.Cu(2V5)"
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 0.075,
       "Material": "FR4",
       "DielectricConstant": "4.5",
       "LossTangent": "0.02",
-      "Name": "In5.Cu(POWER)/In6.Cu(GND)",
-      "Notes": "Type: dielectric layer 6 (from In5.Cu(POWER) to In6.Cu(GND))"
+      "Name": "In5.Cu(2V5)/In6.Cu(GND)",
+      "Notes": "Type: dielectric layer 6 (from In5.Cu(2V5) to In6.Cu(GND))"
     },
     {
       "Type": "Copper",
@@ -251,6 +272,7 @@
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
       "Thickness": 0.0764,
       "Material": "FR4",
       "DielectricConstant": "4.5",

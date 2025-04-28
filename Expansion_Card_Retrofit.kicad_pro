@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1016
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -528,7 +528,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "diff_pair_gap": 0.3,
+        "diff_pair_gap": 0.18,
         "diff_pair_width": 0.09,
         "name": "LVDS",
         "pcb_color": "rgb(0, 194, 194)",
