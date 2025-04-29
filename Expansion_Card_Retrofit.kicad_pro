@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.1016
         }
       },
       "diff_pair_dimensions": [
@@ -225,6 +225,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.28,
+          "drill": 0.2
         },
         {
           "diameter": 0.4,
@@ -492,7 +496,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.1524,
         "via_diameter": 0.4,
         "via_drill": 0.4,
         "wire_width": 6
@@ -564,11 +568,35 @@
       "/CC_CFG_CTRL_VALID": [
         "50 Ohm"
       ],
+      "/CLOCK_SYS": [
+        "50 Ohm"
+      ],
       "/C_TX1_N": [
         "100 Ohm"
       ],
       "/C_TX1_P": [
         "100 Ohm"
+      ],
+      "/FLASH_CLK": [
+        "50 Ohm"
+      ],
+      "/FLASH_S0": [
+        "50 Ohm"
+      ],
+      "/FLASH_S1": [
+        "50 Ohm"
+      ],
+      "/FLASH_S2": [
+        "50 Ohm"
+      ],
+      "/FLASH_S3": [
+        "50 Ohm"
+      ],
+      "/FPGA_USB_DN": [
+        "USB"
+      ],
+      "/FPGA_USB_DP": [
+        "USB"
       ],
       "/GPIO20_GPOUT0": [
         "50 Ohm"
@@ -655,6 +683,9 @@
       ],
       "/USB_DP": [
         "USB"
+      ],
+      "/~{FLASH_CS}": [
+        "50 Ohm"
       ]
     },
     "netclass_patterns": [
@@ -807,6 +838,12 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESIGNER",
+          "name": "DESIGNER",
           "show": false
         }
       ],
