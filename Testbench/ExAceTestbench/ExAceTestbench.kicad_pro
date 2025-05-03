@@ -20,9 +20,9 @@
           "arrow_length": 1270000,
           "extension_offset": 500000,
           "keep_text_aligned": true,
-          "suppress_zeroes": false,
+          "suppress_zeroes": true,
           "text_position": 0,
-          "units_format": 1
+          "units_format": 0
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
@@ -37,18 +37,18 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.3
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
-        "silk_line_width": 0.1016,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.5842,
-        "silk_text_size_v": 0.5842,
-        "silk_text_thickness": 0.1016,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1016
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -56,11 +56,15 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 1.0,
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
       "meta": {
-        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -81,8 +85,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -109,6 +112,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -124,22 +128,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0889,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.1524,
+        "min_clearance": 0.1016,
+        "min_connection": 0.1016,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.1778,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.23,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7,
+        "min_text_height": 0.61,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1524,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.09,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -189,11 +193,7 @@
       ],
       "track_widths": [
         0.0,
-        0.1524,
-        0.254,
-        0.381,
-        0.508,
-        0.8128
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -227,12 +227,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.28,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.2
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true
@@ -432,7 +428,6 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -478,17 +473,17 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Expansion_Card_Retrofit.kicad_pro",
+    "filename": "ExAceTestbench.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -496,250 +491,28 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "1V",
-        "pcb_color": "rgb(255, 0, 255)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "1V1",
-        "pcb_color": "rgb(0, 0, 255)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "2V5",
-        "pcb_color": "rgb(0, 194, 0)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "3V3",
-        "pcb_color": "rgb(255, 153, 0)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "GND",
-        "pcb_color": "rgb(255, 255, 0)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "diff_pair_gap": 0.18,
-        "diff_pair_width": 0.09,
-        "name": "LVDS",
-        "pcb_color": "rgb(0, 194, 194)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.1,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "VBUS",
-        "pcb_color": "rgb(255, 0, 0)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/CC_CFG_CTRL_CLK": [
-        "50 Ohm"
-      ],
-      "/CC_CFG_CTRL_EN": [
-        "50 Ohm"
-      ],
-      "/CC_CFG_CTRL_VALID": [
-        "50 Ohm"
-      ],
-      "/CLOCK_SYS": [
-        "50 Ohm"
-      ],
-      "/C_TX1_N": [
-        "100 Ohm"
-      ],
-      "/C_TX1_P": [
-        "100 Ohm"
-      ],
-      "/FLASH_CLK": [
-        "50 Ohm"
-      ],
-      "/FLASH_S0": [
-        "50 Ohm"
-      ],
-      "/FLASH_S1": [
-        "50 Ohm"
-      ],
-      "/FLASH_S2": [
-        "50 Ohm"
-      ],
-      "/FLASH_S3": [
-        "50 Ohm"
-      ],
-      "/FPGA_USB_DN": [
-        "USB"
-      ],
-      "/FPGA_USB_DP": [
-        "USB"
-      ],
-      "/GPIO20_GPOUT0": [
-        "50 Ohm"
-      ],
-      "/GPIO21_GPOUT0": [
-        "50 Ohm"
-      ],
-      "/GPIO22_GPOUT1": [
-        "50 Ohm"
-      ],
-      "/GPIO23_GPOUT1": [
-        "50 Ohm"
-      ],
-      "/HSTX_0_N": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/HSTX_0_P": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/HSTX_1_N": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/HSTX_1_P": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/HSTX_2_N": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/HSTX_2_P": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/HSTX_3_N": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/HSTX_3_P": [
-        "100 Ohm",
-        "LVDS_RTERM_ON"
-      ],
-      "/RX0": [
-        "50 Ohm"
-      ],
-      "/RX1": [
-        "50 Ohm"
-      ],
-      "/RX1_N": [
-        "100 Ohm"
-      ],
-      "/RX1_P": [
-        "100 Ohm"
-      ],
-      "/RX2_N": [
-        "100 Ohm"
-      ],
-      "/RX2_P": [
-        "100 Ohm"
-      ],
-      "/TX0": [
-        "50 Ohm"
-      ],
-      "/TX1": [
-        "50 Ohm"
-      ],
-      "/TX1_N": [
-        "100 Ohm"
-      ],
-      "/TX1_P": [
-        "100 Ohm"
-      ],
-      "/TX2_N": [
-        "100 Ohm"
-      ],
-      "/TX2_P": [
-        "100 Ohm"
-      ],
-      "/USB_DN": [
-        "USB"
-      ],
-      "/USB_DP": [
-        "USB"
-      ],
-      "/~{FLASH_CS}": [
-        "50 Ohm"
-      ]
-    },
-    "netclass_patterns": [
-      {
-        "netclass": "3V3",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(P1-PadA5)"
-      },
-      {
-        "netclass": "VBUS",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "2V5",
-        "pattern": "+2V5"
-      },
-      {
-        "netclass": "1V",
-        "pattern": "+1V"
-      },
-      {
-        "netclass": "1V1",
-        "pattern": "+1V1"
-      },
-      {
-        "netclass": "LVDS",
-        "pattern": "/HSTX*"
-      },
-      {
-        "netclass": "LVDS",
-        "pattern": "/SER_CLK*"
-      },
-      {
-        "netclass": "LVDS",
-        "pattern": "/IO_*"
-      }
-    ]
+    "netclass_assignments": null,
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fabrication/01-Gerber/Gerber",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Outputs/Fabrication/04-pcb_model.stl",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -747,7 +520,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -769,15 +542,45 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -788,62 +591,14 @@
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
         },
         {
           "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DESIGNER",
-          "name": "DESIGNER",
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         }
       ],
@@ -851,7 +606,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
@@ -867,14 +622,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -896,12 +651,8 @@
   },
   "sheets": [
     [
-      "f3b918d3-9afe-4ecb-86cc-12f1996b3981",
+      "0805da0b-bb94-4279-89c7-60894922087b",
       "Root"
-    ],
-    [
-      "3f570257-c5cf-4744-b623-74a57e3fb337",
-      "power_supply"
     ]
   ],
   "text_variables": {}
