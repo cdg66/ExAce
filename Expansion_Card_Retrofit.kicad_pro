@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.12
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.3,
+          "width": 0.09
         }
       ],
       "drc_exclusions": [],
@@ -109,6 +114,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -128,7 +134,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.1524,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.18288,
+        "min_hole_clearance": 0.1778,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -137,7 +143,7 @@
         "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1524,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -225,6 +231,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.28,
+          "drill": 0.2
         },
         {
           "diameter": 0.4,
@@ -454,7 +464,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -492,16 +502,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.1524,
         "via_diameter": 0.4,
-        "via_drill": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
-      },
-      {
-        "name": "1V",
-        "pcb_color": "rgb(255, 0, 255)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "1V1",
@@ -528,20 +532,22 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "diff_pair_gap": 0.18,
+        "diff_pair_gap": 0.2,
         "diff_pair_width": 0.09,
         "name": "LVDS",
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09
       },
       {
         "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.1,
+        "diff_pair_width": 0.09,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(128, 77, 0)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09
       },
       {
         "name": "VBUS",
@@ -564,11 +570,35 @@
       "/CC_CFG_CTRL_VALID": [
         "50 Ohm"
       ],
+      "/CLOCK_SYS": [
+        "50 Ohm"
+      ],
       "/C_TX1_N": [
         "100 Ohm"
       ],
       "/C_TX1_P": [
         "100 Ohm"
+      ],
+      "/FLASH_CLK": [
+        "50 Ohm"
+      ],
+      "/FLASH_S0": [
+        "50 Ohm"
+      ],
+      "/FLASH_S1": [
+        "50 Ohm"
+      ],
+      "/FLASH_S2": [
+        "50 Ohm"
+      ],
+      "/FLASH_S3": [
+        "50 Ohm"
+      ],
+      "/FPGA_USB_DN": [
+        "USB"
+      ],
+      "/FPGA_USB_DP": [
+        "USB"
       ],
       "/GPIO20_GPOUT0": [
         "50 Ohm"
@@ -655,6 +685,12 @@
       ],
       "/USB_DP": [
         "USB"
+      ],
+      "/~{FLASH_CS}": [
+        "50 Ohm"
+      ],
+      "Net-(U3E-CLK0{slash}IO_SB_A8)": [
+        "50 Ohm"
       ]
     },
     "netclass_patterns": [
@@ -667,10 +703,6 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Default",
-        "pattern": "Net-(P1-PadA5)"
-      },
-      {
         "netclass": "VBUS",
         "pattern": "VBUS"
       },
@@ -679,16 +711,12 @@
         "pattern": "+2V5"
       },
       {
-        "netclass": "1V",
-        "pattern": "+1V"
-      },
-      {
         "netclass": "1V1",
         "pattern": "+1V1"
       },
       {
-        "netclass": "LVDS",
-        "pattern": "/HSTX*"
+        "netclass": "USB",
+        "pattern": "/*X*_*"
       },
       {
         "netclass": "LVDS",
@@ -697,6 +725,10 @@
       {
         "netclass": "LVDS",
         "pattern": "/IO_*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB*"
       }
     ]
   },
@@ -708,7 +740,7 @@
       "plot": "Fabrication/01-Gerber/Gerber",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Outputs/Fabrication/04-pcb_model.stl",
+      "step": "Outputs/Fabrication/04-3DModels/model.stl",
       "svg": "",
       "vrml": ""
     },
@@ -808,6 +840,12 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESIGNER",
+          "name": "DESIGNER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -815,7 +853,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "MPN"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
