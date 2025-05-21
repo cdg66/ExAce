@@ -6,7 +6,7 @@
 
 ## 🧩 Overview
 
-A tiny yet powerfull fpga acceleration card desiged with the Framework laptop expansion module system. 
+A tiny yet powerfull fpga acceleration card desiged with the Framework laptop expansion module system in mind.
 
 ## 🛠️ Features
 
@@ -95,13 +95,39 @@ This project references and builds upon the open-source designs from
 which is also licensed under the [Creative Commons Attribution 4.0 International License (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 TPSM82822SILR
-Footprint Ultralibrarian
-3D model SnapEDA
+
+Footprint: Ultralibrarian
+
+3D model: SnapMagic
+
 Edited by me
 
+
 S3A2505-100.000-L-X1-R
-Symbol, Footprint and SnapMagic
+
+Symbol, Footprint, 3D model: SnapMagic
+
 Edited by me
+
+
+1054440011
+
+3D model: Molex
+
+
+KXT_331_LHS
+
+3D model: SnapMagic
+
+
+STM32L422RBI6
+
+3D model: SnapMagic
+
+
+TPS7A2033PDQNR
+
+3D model: SnapMagic
 
 
 ---
