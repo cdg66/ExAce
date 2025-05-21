@@ -1082,7 +1082,7 @@
 				)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" "DNP "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1255,7 +1255,7 @@
 				)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" "DNP "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1429,7 +1429,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1637,7 +1637,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2159,7 +2159,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM033R71E121KA01D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2925,11 +2925,24 @@
 				)
 			)
 		)
+		(property "MPN" "DNP"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb1a6ab6-d5eb-4e79-98f0-3f780175bc76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/57770d75-ae02-463a-a210-c4498a25712f")
 		(sheetname "/")
 		(sheetfile "Expansion_Card_Retrofit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_rect
 			(start -0.1 -0.5)
 			(end 0.1 0.5)
@@ -3161,7 +3174,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3375,7 +3388,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3583,7 +3596,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3791,7 +3804,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3999,7 +4012,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4207,7 +4220,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4421,7 +4434,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4641,7 +4654,7 @@
 			)
 		)
 		(property ki_fp_filters "BGA*15.0x15.0mm*Layout18x18*P0.8mm*")
-		(path "/cacd4c12-c40b-4dec-8bae-63a9bddd7ce6")
+		(path "/981625ae-add1-4b83-8d07-bd56581dbd0e")
 		(sheetname "/")
 		(sheetfile "Expansion_Card_Retrofit.kicad_sch")
 		(clearance 0.1)
@@ -8117,7 +8130,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8331,6 +8344,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b84d5924-9d4a-43ff-8c9f-ad6828528bf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TXS0202YZPR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28984016-174d-40ef-9c27-f471132be93c")
 			(effects
 				(font
 					(size 1 1)
@@ -8970,7 +8996,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9184,7 +9210,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9392,7 +9418,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10375,7 +10401,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10577,6 +10603,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STM32L422RBI6"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dd77728-db47-4d0d-9e01-413458ca4e7d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11582,7 +11621,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12253,7 +12292,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12461,7 +12500,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12675,7 +12714,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12879,6 +12918,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KXT 331 LHS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba504bc5-844c-4ad0-90e7-98deebff09fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13261,7 +13313,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-07100KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13469,7 +13521,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13677,7 +13729,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14692,7 +14744,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15022,7 +15074,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15236,7 +15288,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-07316KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15444,7 +15496,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15652,7 +15704,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW0201200RFKED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15861,7 +15913,7 @@
 				)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" "DNP "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16038,7 +16090,7 @@
 				)
 			)
 		)
-		(property "MPN" "DNP"
+		(property "MPN" "DNP "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16218,7 +16270,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16432,7 +16484,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16652,7 +16704,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16866,7 +16918,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17080,7 +17132,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17300,7 +17352,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17747,7 +17799,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17961,7 +18013,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18175,7 +18227,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18690,7 +18742,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18910,7 +18962,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19130,7 +19182,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19344,7 +19396,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW0201200RFKED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19558,7 +19610,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19778,7 +19830,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20528,7 +20580,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20742,7 +20794,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20956,7 +21008,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21396,7 +21448,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21610,7 +21662,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21824,7 +21876,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22044,7 +22096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22572,7 +22624,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22786,7 +22838,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23006,7 +23058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW0201200RFKED"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23220,7 +23272,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23434,7 +23486,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23648,7 +23700,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23862,7 +23914,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24076,7 +24128,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24290,7 +24342,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24504,7 +24556,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-07100RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24718,7 +24770,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24932,7 +24984,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25152,7 +25204,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25730,7 +25782,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25950,7 +26002,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26170,7 +26222,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26384,7 +26436,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM033R71E121KA01D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26598,7 +26650,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26818,7 +26870,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27026,6 +27078,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2369da2e-0440-4b12-af49-8443645e5672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CSD25480F3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "78231f6d-1e64-402e-bd61-a07abed9ba6d")
 			(effects
 				(font
 					(size 1 1)
@@ -27257,7 +27323,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27477,7 +27543,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27697,7 +27763,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27906,6 +27972,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "KXT 331 LHS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02fb920d-73eb-4639-b9ac-074da7b26782")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -28294,7 +28374,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28508,7 +28588,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28722,7 +28802,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28936,7 +29016,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29156,7 +29236,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29370,7 +29450,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29590,7 +29670,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29810,7 +29890,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30024,7 +30104,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30238,7 +30318,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30452,7 +30532,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30899,7 +30979,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-07100RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31113,7 +31193,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31327,7 +31407,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31541,7 +31621,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31761,7 +31841,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31975,7 +32055,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32155,7 +32235,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TMP110D"
+		(property "Value" "TMP110D1IDPWR"
 			(at 0 -2 0)
 			(layer "B.Fab")
 			(uuid "e0d23a26-6377-4b98-ad02-3af6d13bdaae")
@@ -32631,7 +32711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33080,7 +33160,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0760R4L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33294,7 +33374,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33514,7 +33594,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33728,7 +33808,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33942,7 +34022,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34382,7 +34462,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34596,7 +34676,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34932,7 +35012,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35146,7 +35226,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35360,7 +35440,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35574,7 +35654,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35794,6 +35874,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "DNP "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64b511b8-ce85-41a9-bdc3-e53f2a1788f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4edd440d-c5e2-4311-8a28-5cc9c9ff3c09")
 		(sheetname "/")
@@ -35902,7 +35996,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36116,7 +36210,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36330,7 +36424,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36550,7 +36644,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36770,7 +36864,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36984,7 +37078,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37198,7 +37292,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37418,7 +37512,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-071K5L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37632,7 +37726,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37852,7 +37946,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38072,7 +38166,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38286,7 +38380,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38742,7 +38836,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38956,7 +39050,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39170,7 +39264,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39390,7 +39484,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39843,7 +39937,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40057,7 +40151,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40683,7 +40777,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40897,7 +40991,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41111,7 +41205,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41331,7 +41425,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41545,7 +41639,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41759,7 +41853,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41973,7 +42067,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42187,7 +42281,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42407,7 +42501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-07100KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42621,7 +42715,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42841,7 +42935,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43061,7 +43155,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43275,7 +43369,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43495,7 +43589,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43709,7 +43803,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43923,6 +44017,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "DNP "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1dc6c6d0-85f8-4687-9678-4e97281e89ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c1920598-0cac-4e3b-925a-d9a7fea1943d")
 		(sheetname "/")
@@ -44031,7 +44139,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -44478,6 +44586,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "DNP "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e48aafc8-10dd-4ef5-bc4c-19049ff594d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9a52c0a3-6d81-4c45-b463-b3f476372f6e")
 		(sheetname "/")
@@ -44708,7 +44830,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45155,7 +45277,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45375,7 +45497,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45589,7 +45711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45803,7 +45925,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46017,7 +46139,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46231,7 +46353,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46451,7 +46573,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46898,7 +47020,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47112,7 +47234,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47332,7 +47454,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47546,7 +47668,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47766,7 +47888,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47980,7 +48102,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48200,7 +48322,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-0784K5L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48414,7 +48536,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48628,7 +48750,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -48842,7 +48964,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49757,6 +49879,20 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "DNP "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce2729a2-03d3-4f99-b10f-fdd18130db03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f67cdd3-6583-43ff-9ec4-ba3092e6f5ff")
 		(sheetname "/")
@@ -49865,7 +50001,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0402C104K8PACTU"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50085,7 +50221,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CR0201AJ/-000GAS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50299,7 +50435,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0201FR-135K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50513,7 +50649,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0201C103K4PACTU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -55034,6 +55170,42 @@
 			"ACynERsKfwAAvL8SGwp/AADkZg0bCn8AACRlDRsKfwAAAIMRGwp/AAAIgxEbCn8AAJRaDRsKfwAA"
 			"rFoNGwp/AACkWg0bCn8AAIxaDRsKfwAADNcUGwp/AAA0eg0bCn8AACR6DRsKfwAA7TgNGwp/AAC0"
 			"kAwbCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"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"
