@@ -82,7 +82,14 @@ To get the board fabricated:
 - Use the files in the `/Outputs` directory
 - Recommended fabs:
   - [NextPcb](https://www.nextpcb.com/)
+  - [JLCPCB](https://jlcpcb.com/) 
 
+Stack-up:
+
+![stackup](/doc/stackup.png)
+
+
+The recommended stackup is the JLC08081H-1080A at JLCPCB but can be done at any other pcb manufacturer.
 ---
 
 
