@@ -90,6 +90,7 @@ Stack-up:
 
 
 The recommended stackup is the JLC08081H-1080A at JLCPCB but can be done at any other pcb manufacturer.
+
 ---
 
 
