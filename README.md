@@ -4,6 +4,11 @@
 ![Status](https://img.shields.io/badge/status-WIP-yellow)
 ![Hardware](https://img.shields.io/badge/hardware-KiCad-blue)
 
+> [!Warning]
+>
+> Content is not proven and suject to change without notice! Send to fab at your own risk. 
+
+
 ## 🧩 Overview
 
 A tiny yet powerfull fpga acceleration card desiged with the Framework laptop expansion module system in mind.
