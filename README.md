@@ -11,23 +11,23 @@
 
 ## 🧩 Overview
 
-A tiny yet powerfull fpga acceleration card desiged with the Framework laptop expansion module system in mind.
+A tiny yet powerful fpga acceleration card designed with the Framework laptop expansion module system in mind.
 
 ## 🛠️ Features
 
 - ✅ [CCGM1A1/2/4 compatible](https://colognechip.com/docs/ds1001-gatemate1-datasheet-latest.pdf)
 - ✅ 20,480, 40,960 or 81,920 8-input LUT-trees.
-- ✅ USB-type C, 5V 1.5A
-- ✅ Full acces to SERDES via the usb-c connector (1 for A1/A2 and 2 for A4 device).
+- ✅ USB-type C, 5V 1.5A.
+- ✅ Full access to SERDES via the USB-c connector (1 for A1/A2 and 2 for A4 device).
 - ✅ USB2.0 interface is shared between the fpga and mcu via a USB mux.
 - ✅ STM32L422RBI6 coprocessor and programmer.
-- ✅ shared uart and i2c between the fpga and microcontroler for easier developement.
-- ✅ Free and (almost) Open-source FPGA toolchain!
+- ✅ Shared Earth and i2c between the fpga and microcontroller for easier development.
+- ✅ Free and Open-source FPGA toolchain!
 - ✅ Lots of sensors!: PDM microphone, 6DoF imu, magnetometer, and thermometer.
 - ✅ 8 user programmable led ideal for VU meters.
 - ✅ 1 lvds IO ideal for connecting multiple board together in a cluster.
-- 🔜 TinyFPGA-Bootloader support.
-- 🔜 DirtyJTAG support.
+- 🔜 TinyFPGA-Bootloader support TBD.
+- 🔜 DirtyJTAG support TBD.
 
 ---
 
@@ -94,7 +94,7 @@ Stack-up:
 ![stackup](/doc/stackup.png)
 
 
-The recommended stackup is the JLC08081H-1080A at JLCPCB but can be done at any other pcb manufacturer.
+The recommended stack up is the JLC08081H-1080A at JLCPCB but can be done at any other PCB manufacturer.
 
 ---
 
